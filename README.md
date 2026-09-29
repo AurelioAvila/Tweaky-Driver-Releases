@@ -23,11 +23,15 @@ does not establish compatibility or guarantee a performance improvement.
 1. Open the [latest release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) and read its notes.
 2. Download the Windows x64 setup executable from that release's assets.
 3. Check the file's digital signature in Windows Properties. The publisher should be **Aurelio Avila**; investigate a missing or invalid signature before running it.
-4. Use the release's `SHA256SUMS.txt` to check download integrity. A matching hash does not replace publisher-signature verification.
+4. Compare the downloaded file's SHA-256 with the digest shown in its official GitHub release asset details. Do not assume every release includes a separate checksum file. A matching hash does not replace publisher-signature verification.
 
 Windows SmartScreen may still display a prompt for a signed application. Code
 signing identifies the publisher and protects integrity; it does not guarantee
 compatibility or the absence of software defects.
+
+## WinGet status
+
+As of September 30, 2026, the latest stable release is **0.1.8**. Its [existing WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) has been updated to that version and is still undergoing validation and review. It is **not yet approved in the upstream catalog**. Use the official GitHub release until the package is accepted; passing individual automated checks is not publication.
 
 ## Support and security
 
