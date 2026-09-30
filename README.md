@@ -35,7 +35,7 @@ As of September 30, 2026, the latest stable release is **0.1.8**. Its [existing 
 
 ## Support and security
 
-For help, contact [aurelio_11@outlook.it](mailto:aurelio_11@outlook.it) with the app
+For help, contact [tweakydriver@pctweaker.app](mailto:tweakydriver@pctweaker.app) with the app
 version, Windows version and steps to reproduce the issue. Do not include passwords,
 license tokens or other sensitive data. Follow [SECURITY.md](SECURITY.md) when reporting
 a suspected vulnerability.
