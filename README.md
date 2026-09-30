@@ -31,7 +31,7 @@ compatibility or the absence of software defects.
 
 ## WinGet status
 
-As of September 30, 2026, the latest stable release is **0.1.8**. Its [existing WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) has been updated to that version and is still undergoing validation and review. It is **not yet approved in the upstream catalog**. Use the official GitHub release until the package is accepted; passing individual automated checks is not publication.
+As of October 1, 2026, the latest stable release is **0.1.9**. The [existing WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) still targets **0.1.8** and remains open for validation and review; it does not yet distribute 0.1.9. It is **not yet approved in the upstream catalog**. Use the official GitHub release until the package is accepted; passing individual automated checks is not publication.
 
 ## Support and security
 
