@@ -11,6 +11,7 @@ Tweaky Driver is a proprietary Windows 10/11 x64 application by Aurelio Avila.
 
 - A driver inventory that distinguishes detected devices from available offers.
 - Separate download-ready offers and catalog candidates, so a search result is not mistaken for a compatible installation.
+- Clear installed and available versions, package sources and download information, with responsive scan cancellation.
 - Release notes describing supported workflows, validation status and known limitations.
 
 Driver discovery depends on compatible packages and supported sources. Universal
@@ -31,7 +32,7 @@ compatibility or the absence of software defects.
 
 ## WinGet status
 
-As of October 1, 2026, the latest stable release is **0.1.9**. The [existing WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) now targets **0.1.9** and remains open for validation and review; the package is not yet available through WinGet. It is **not yet approved in the upstream catalog**. Use the official GitHub release until the package is accepted; passing individual automated checks is not publication.
+The [existing WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) targets **0.1.9** and remains open for validation and review as of October 2, 2026. This is a pending catalog submission, not a statement of the latest app version. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
 
 ## Support and security
 
