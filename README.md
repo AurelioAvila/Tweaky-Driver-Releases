@@ -3,6 +3,8 @@
 Review detected devices and available driver offers before changing a working PC.
 Tweaky Driver is a proprietary Windows 10/11 x64 application by Aurelio Avila.
 
+[Explore the official website](https://pctweaker.app/tweaky-driver/) · [Read the workflow and FAQ](https://pctweaker.app/tweaky-driver/#questions)
+
 [Download the latest signed installer](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
 
 [![Latest release](https://img.shields.io/github/v/release/AurelioAvila/Tweaky-Driver-Releases?label=release)](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
@@ -32,7 +34,7 @@ compatibility or the absence of software defects.
 
 ## WinGet status
 
-The [existing WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) targets **0.1.10** and remains open for validation and review as of October 2, 2026. This is a pending catalog submission, not a statement of the latest app version. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
+The [existing WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) targets **0.1.10** and remains open for validation and review as of October 3, 2026. The latest stable application release is **0.1.11**, so the pending submission is not yet aligned. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
 
 ## Support and security
 
