@@ -72,12 +72,12 @@
       <Char_Desc_80>Inspect devices, package sources and available Windows driver update offers.</Char_Desc_80>
       <Char_Desc_250>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Current signed Windows download; free and paid access are documented officially.</Char_Desc_250>
       <Char_Desc_450>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Review limitations and access requirements on the official product page. Windows downloads are publisher-signed and timestamped; signing is not a safety guarantee. Screenshots illustrate the app and may show an earlier release.</Char_Desc_450>
-      <Char_Desc_2000>Tweaky Driver by Aurelio Avila separates detected Windows devices from eligible driver offers. Review installed and available versions and package sources before downloading. Free access includes inventory and a limited-source scan; Pro extends supported sources and eligible downloads. Driver detection does not establish compatibility, and universal hardware coverage or a performance gain is not promised. Some packages are download-only; installation remains a separate reviewed step. The screenshot is a genuine earlier 0.1.4 initial-state capture, not the 0.1.10 interface or proof of driver coverage. Official Windows downloads are publisher-signed and timestamped. Signing does not guarantee safety.</Char_Desc_2000>
+      <Char_Desc_2000>Tweaky Driver by Aurelio Avila separates detected Windows devices from eligible driver offers. Review installed and available versions and package sources before downloading. Free access includes inventory and a limited-source scan; Pro extends supported sources and eligible downloads. Driver detection does not establish compatibility, and universal hardware coverage or a performance gain is not promised. Some packages are download-only; installation remains a separate reviewed step. The screenshot is a genuine earlier 0.1.4 initial-state capture, not proof of the current interface or driver coverage. Official Windows downloads are publisher-signed and timestamped. Signing does not guarantee safety.</Char_Desc_2000>
     </English>
   </Program_Descriptions>
   <Web_Info>
     <Application_URLs>
-      <Application_Info_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases</Application_Info_URL>
+      <Application_Info_URL>https://pctweaker.app/tweaky-driver/</Application_Info_URL>
       <Application_Order_URL></Application_Order_URL>
       <Application_Screenshot_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/screenshots/initial-state-0.1.4.png</Application_Screenshot_URL>
       <Application_Icon_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/icon-32.png</Application_Icon_URL>
