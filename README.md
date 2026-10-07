@@ -9,7 +9,6 @@ Tweaky Driver is a proprietary Windows 10/11 x64 application by Aurelio Avila.
 
 [![Latest release](https://img.shields.io/github/v/release/AurelioAvila/Tweaky-Driver-Releases?label=release)](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
 [![Softpedia user rating: 5 out of 5 from 7 votes](https://img.shields.io/badge/Softpedia-5%2F5%20%7C%207%20votes-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
-[![Softpedia editorial review: 4 out of 5](https://img.shields.io/badge/Softpedia_review-4%2F5-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
 
 ## What to expect
 
