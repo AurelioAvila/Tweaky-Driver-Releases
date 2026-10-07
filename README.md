@@ -8,6 +8,8 @@ Tweaky Driver is a proprietary Windows 10/11 x64 application by Aurelio Avila.
 [Download the latest signed installer](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
 
 [![Latest release](https://img.shields.io/github/v/release/AurelioAvila/Tweaky-Driver-Releases?label=release)](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
+[![Softpedia user rating: 5 out of 5 from 7 votes](https://img.shields.io/badge/Softpedia-5%2F5%20%7C%207%20votes-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
+[![Softpedia editorial review: 4 out of 5](https://img.shields.io/badge/Softpedia_review-4%2F5-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
 
 ## What to expect
 
@@ -34,7 +36,15 @@ compatibility or the absence of software defects.
 
 ## WinGet status
 
-The [WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842) for **0.1.11** has passed automated validation and is waiting for Microsoft's manual review as of October 5, 2026. The latest stable application release is **0.1.12**; WinGet will follow once the package is accepted. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
+The [WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842), now for **0.1.14**, has passed automated validation and is waiting for a Microsoft moderator as of October 7, 2026; it is a new-package request, which takes longer than a version update. The latest stable application release is **0.1.14**; WinGet will follow once the package is accepted. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
+
+## Reviews
+
+Checked October 7, 2026. Feedback stays at its original source:
+
+- [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml): user rating **5.0/5 from 7 votes**; editorial review **4.0/5**, tested by Softpedia staff; lists 0.1.14.
+
+Third-party listings apply their own licence labels and may describe an older release; this repository's [LICENSE](LICENSE) and [release notes](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases) are the authoritative sources.
 
 ## Support and security
 
