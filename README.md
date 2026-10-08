@@ -37,7 +37,7 @@ compatibility or the absence of software defects.
 
 ## WinGet status
 
-The [WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842), now for **0.1.14**, has passed automated validation and is waiting for a Microsoft moderator as of October 7, 2026; it is a new-package request, which takes longer than a version update. The latest stable application release is **0.1.14**; WinGet will follow once the package is accepted. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
+The [WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842), now for **0.1.16**, is waiting for a Microsoft moderator as of October 8, 2026; it is a new-package request, which takes longer than a version update. The latest stable application release is **0.1.16**; WinGet will follow once the package is accepted. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
 
 ## Reviews
 
