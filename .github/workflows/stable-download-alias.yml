@@ -1,0 +1,68 @@
+name: Stable download alias
+
+# Release installers carry the version in their filename, so a website cannot
+# link to one permanently. This copies each published release's signed
+# installer under a fixed name, so /releases/latest/download/TweakyDriver-Setup.exe always
+# downloads the current version with one click. Same bytes, same signature.
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Release tag to alias (defaults to latest)"
+        required: false
+
+permissions:
+  contents: write
+
+jobs:
+  alias:
+    runs-on: windows-latest
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - name: Resolve tag
+        id: tag
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.event.release.tag_name }}
+          INPUT_TAG: ${{ inputs.tag }}
+        run: |
+          TAG="$RELEASE_TAG"
+          if [ -z "$TAG" ]; then TAG="$INPUT_TAG"; fi
+          if [ -z "$TAG" ]; then TAG=$(gh release view --repo "$REPO" --json tagName --jq .tagName); fi
+          [[ "$TAG" =~ ^v[0-9]+\.[0-9]+\.[0-9]+$ ]] || exit 1
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+      - name: Download the versioned installer
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: gh release download "$TAG" --repo "$REPO" --pattern "Tweaky-Driver-*-x64-setup.exe" --clobber -D dl
+
+      - name: Copy to the stable name after verifying the signature
+        shell: pwsh
+        run: |
+          $files = @(Get-ChildItem -LiteralPath dl -File)
+          if ($files.Count -ne 1) { throw 'Expected exactly one installer.' }
+          New-Item -ItemType Directory -Force out | Out-Null
+          Copy-Item -LiteralPath $files[0].FullName -Destination 'out/TweakyDriver-Setup.exe'
+          foreach ($path in @($files[0].FullName, 'out/TweakyDriver-Setup.exe')) {
+            $s = Get-AuthenticodeSignature -LiteralPath $path
+            if ($s.Status -ne 'Valid' -or !$s.TimeStamperCertificate -or $s.SignerCertificate.Subject -notmatch '(^|,\s*)CN=Aurelio Avila(,|$)') {
+              throw "Signature check failed for ${path}: $($s.Status)"
+            }
+          }
+          if ((Get-FileHash $files[0].FullName).Hash -ne (Get-FileHash 'out/TweakyDriver-Setup.exe').Hash) { throw 'Copy differs.' }
+
+      - name: Upload the stable alias
+        env:
+          GH_TOKEN: ${{ github.token }}
+          REPO: ${{ github.repository }}
+          TAG: ${{ steps.tag.outputs.tag }}
+        run: gh release upload "$TAG" "out/TweakyDriver-Setup.exe" --repo "$REPO" --clobber
