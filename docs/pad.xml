@@ -34,9 +34,9 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>Tweaky Driver</Program_Name>
-    <Program_Version>0.1.14</Program_Version>
+    <Program_Version>0.1.18</Program_Version>
     <Program_Release_Month>10</Program_Release_Month>
-    <Program_Release_Day>06</Program_Release_Day>
+    <Program_Release_Day>11</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
     <Program_Cost_Dollars></Program_Cost_Dollars>
     <Program_Cost_Other_Code></Program_Cost_Other_Code>
@@ -47,9 +47,9 @@
     <Program_OS_Support>WinOther</Program_OS_Support>
     <Program_Language>English</Program_Language>
     <File_Info>
-      <File_Size_Bytes>4659536</File_Size_Bytes>
-      <File_Size_K>4550.33</File_Size_K>
-      <File_Size_MB>4.44</File_Size_MB>
+      <File_Size_Bytes>4671944</File_Size_Bytes>
+      <File_Size_K>4562.45</File_Size_K>
+      <File_Size_MB>4.46</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -60,7 +60,7 @@
       <Expire_Day></Expire_Day>
       <Expire_Year></Expire_Year>
     </Expire_Info>
-    <Program_Change_Info>- Faster scans: Microsoft Catalog metadata is now kept locally for 30 days and rechecked on every use, so repeat scans finish in about a minute instead of several. Catalog searches run with more parallel requests.</Program_Change_Info>
+    <Program_Change_Info>- Updates no longer depend on other apps: setup closes only Tweaky Driver, never a driver installation in progress, and finishes an earlier update that did not complete. The scan shows how much of the PC it covers, devices without a driver are also matched by their general model ID, and official NVIDIA drivers are found for more GeForce laptop and desktop GPUs.</Program_Change_Info>
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
     <Program_System_Requirements>Windows 10/11 x64; internet for accounts, updates and supported online features.</Program_System_Requirements>
@@ -72,7 +72,7 @@
       <Char_Desc_80>Inspect devices, package sources and available Windows driver update offers.</Char_Desc_80>
       <Char_Desc_250>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Current signed Windows download; free and paid access are documented officially.</Char_Desc_250>
       <Char_Desc_450>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Review limitations and access requirements on the official product page. Windows downloads are publisher-signed and timestamped; signing is not a safety guarantee. Screenshots illustrate the app and may show an earlier release.</Char_Desc_450>
-      <Char_Desc_2000>Tweaky Driver by Aurelio Avila separates detected Windows devices from eligible driver offers. Review installed and available versions and package sources before downloading. Free access includes inventory and a limited-source scan; Pro extends supported sources and eligible downloads. Driver detection does not establish compatibility, and universal hardware coverage or a performance gain is not promised. Some packages are download-only; installation remains a separate reviewed step. The screenshot is a genuine earlier 0.1.4 initial-state capture, not proof of the current interface or driver coverage. Official Windows downloads are publisher-signed and timestamped. Signing does not guarantee safety.</Char_Desc_2000>
+      <Char_Desc_2000>Tweaky Driver by Aurelio Avila separates detected Windows devices from eligible driver offers. Review installed and available versions and package sources before downloading. Free includes the same full scan as Pro and three driver downloads a month; Pro adds unlimited downloads on two PCs. Driver detection does not establish compatibility, and universal hardware coverage or a performance gain is not promised. Some packages are download-only; installation remains a separate reviewed step. The screenshot is a genuine earlier 0.1.4 initial-state capture, not proof of the current interface or driver coverage. Official Windows downloads are publisher-signed and timestamped. Signing does not guarantee safety.</Char_Desc_2000>
     </English>
   </Program_Descriptions>
   <Web_Info>
@@ -84,7 +84,7 @@
       <Application_XML_File_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.14/Tweaky-Driver-0.1.14-x64-setup.exe</Primary_Download_URL>
+      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.18/Tweaky-Driver-0.1.18-x64-setup.exe</Primary_Download_URL>
       <Secondary_Download_URL></Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
