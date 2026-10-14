@@ -34,7 +34,7 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>Tweaky Driver</Program_Name>
-    <Program_Version>0.1.19</Program_Version>
+    <Program_Version>0.1.20</Program_Version>
     <Program_Release_Month>10</Program_Release_Month>
     <Program_Release_Day>14</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
@@ -47,9 +47,9 @@
     <Program_OS_Support>WinOther</Program_OS_Support>
     <Program_Language>English</Program_Language>
     <File_Info>
-      <File_Size_Bytes>4674944</File_Size_Bytes>
-      <File_Size_K>4565.38</File_Size_K>
-      <File_Size_MB>4.46</File_Size_MB>
+      <File_Size_Bytes>4684784</File_Size_Bytes>
+      <File_Size_K>4574.98</File_Size_K>
+      <File_Size_MB>4.47</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -60,7 +60,7 @@
       <Expire_Day></Expire_Day>
       <Expire_Year></Expire_Year>
     </Expire_Info>
-    <Program_Change_Info>- Updates no longer depend on other apps: setup closes only Tweaky Driver, never a driver installation in progress, and finishes an earlier update that did not complete. The scan shows how much of the PC it covers, devices without a driver are also matched by their general model ID, and official NVIDIA drivers are found for more GeForce laptop and desktop GPUs.</Program_Change_Info>
+    <Program_Change_Info>- Tweaky Driver now installs to C:\Program Files\Tweaky Driver as Tweaky Driver.exe, and existing installations move there with this update, keeping settings, downloads and account data and restoring the previous version if the move is interrupted. Setup offers to start the app and create a desktop shortcut, and the app says once when a Pro subscription stops after a failed payment or an ended plan.</Program_Change_Info>
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
     <Program_System_Requirements>Windows 10/11 x64; internet for accounts, updates and supported online features.</Program_System_Requirements>
@@ -84,7 +84,7 @@
       <Application_XML_File_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.19/Tweaky-Driver-0.1.19-x64-setup.exe</Primary_Download_URL>
+      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.20/Tweaky-Driver-0.1.20-x64-setup.exe</Primary_Download_URL>
       <Secondary_Download_URL></Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
