@@ -11,7 +11,9 @@ For Windows 10/11 users reviewing driver changes. Turn a device scan into an inv
 [![Latest release](https://img.shields.io/github/v/release/AurelioAvila/Tweaky-Driver-Releases?label=release)](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
 [![Softpedia user rating: 5 out of 5 from 10 votes](https://img.shields.io/badge/Softpedia-5%2F5%20%7C%2010%20votes-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
 
-<p align="center"><img src="docs/screenshots/scan-0.1.14.png" width="85%" alt="Tweaky Driver 0.1.14 driver scan page with Free and Pro plans"></p>
+<p align="center"><img src="docs/screenshots/inventory-0.1.21.png" width="100%" alt="Tweaky Driver 0.1.21 interface preview with example devices; native actions are unavailable."></p>
+
+*Tweaky Driver 0.1.21 interface preview with example devices; native actions are unavailable.* [Capture details and hashes](docs/SCREENSHOTS.md).
 
 ## What to expect
 
