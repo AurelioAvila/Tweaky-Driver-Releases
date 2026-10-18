@@ -1,7 +1,8 @@
 # Tweaky Driver — Windows Driver Inventory and Update Review
 
-Review detected devices and available driver offers before changing a working PC.
-Tweaky Driver is a proprietary Windows 10/11 x64 application by Aurelio Avila.
+For Windows 10/11 users reviewing driver changes. Turn a device scan into an inventory of installed versions and available offers, distinguishing download-ready packages from catalog candidates.
+
+[Product](https://pctweaker.app/tweaky-driver/) · [Official downloads](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) · [Verify the publisher signature](https://github.com/AurelioAvila/.github/blob/master/CODE_SIGNING.md)
 
 [Explore the official website](https://pctweaker.app/tweaky-driver/) · [Read the workflow and FAQ](https://pctweaker.app/tweaky-driver/#questions)
 
