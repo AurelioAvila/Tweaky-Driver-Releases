@@ -34,7 +34,7 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>Tweaky Driver</Program_Name>
-    <Program_Version>0.1.26</Program_Version>
+    <Program_Version>0.1.27</Program_Version>
     <Program_Release_Month>10</Program_Release_Month>
     <Program_Release_Day>22</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
@@ -47,8 +47,8 @@
     <Program_OS_Support>WinOther</Program_OS_Support>
     <Program_Language>English</Program_Language>
     <File_Info>
-      <File_Size_Bytes>4772376</File_Size_Bytes>
-      <File_Size_K>4660.52</File_Size_K>
+      <File_Size_Bytes>4773288</File_Size_Bytes>
+      <File_Size_K>4661.41</File_Size_K>
       <File_Size_MB>4.55</File_Size_MB>
     </File_Info>
     <Expire_Info>
@@ -60,7 +60,7 @@
       <Expire_Day></Expire_Day>
       <Expire_Year></Expire_Year>
     </Expire_Info>
-    <Program_Change_Info>- Full scans are much faster again and every device is still checked: on a 189-device test PC the first full scan took under 3 minutes instead of 9 to 16, and a repeat the same day 14 seconds. Busy answers from the Microsoft Update Catalog are now asked again on a fresh connection, very old listings without a version are no longer read, and devices with an update option appear by name while the scan runs.</Program_Change_Info>
+    <Program_Change_Info>- AMD Radeon RX graphics cards from the RX 5500 XT to the RX 9070 XT now get the recommended AMD driver package from the official AMD product page of each card, also when Windows still uses its basic display driver. The AMD integrated-graphics check for Ryzen 7000/9000 desktops works again after AMD changed how it labels the recommended driver.</Program_Change_Info>
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
     <Program_System_Requirements>Windows 10/11 x64; internet for accounts, updates and supported online features.</Program_System_Requirements>
@@ -84,7 +84,7 @@
       <Application_XML_File_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.26/Tweaky-Driver-0.1.26-x64-setup.exe</Primary_Download_URL>
+      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.27/Tweaky-Driver-0.1.27-x64-setup.exe</Primary_Download_URL>
       <Secondary_Download_URL></Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
