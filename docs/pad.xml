@@ -34,7 +34,7 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>Tweaky Driver</Program_Name>
-    <Program_Version>0.1.28</Program_Version>
+    <Program_Version>0.1.29</Program_Version>
     <Program_Release_Month>10</Program_Release_Month>
     <Program_Release_Day>22</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
@@ -47,9 +47,9 @@
     <Program_OS_Support>WinOther</Program_OS_Support>
     <Program_Language>English</Program_Language>
     <File_Info>
-      <File_Size_Bytes>4811424</File_Size_Bytes>
-      <File_Size_K>4698.66</File_Size_K>
-      <File_Size_MB>4.59</File_Size_MB>
+      <File_Size_Bytes>4826216</File_Size_Bytes>
+      <File_Size_K>4713.10</File_Size_K>
+      <File_Size_MB>4.60</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -60,7 +60,7 @@
       <Expire_Day></Expire_Day>
       <Expire_Year></Expire_Year>
     </Expire_Info>
-    <Program_Change_Info>- Intel graphics, Wi-Fi and Bluetooth are now checked against the official Intel driver catalog used by Intel Driver and Support Assistant: exact hardware IDs and driver versions, with downloads verified against the Intel signature, size and SHA-1. On a public test set of 123 devices, the devices with an official offer rose from 83 to 97 with no driver installed.</Program_Change_Info>
+    <Program_Change_Info>The Free plan is now one complete scan every 10 days, with the downloads and installs that scan offers until the next one unlocks (it replaces 3 driver downloads a month). The 3-day free trial of Pro is shown in the title bar, on the scan page and in Plans &amp; pricing, with the time left while it runs. Plans &amp; pricing marks the current plan and the plans it includes.</Program_Change_Info>
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
     <Program_System_Requirements>Windows 10/11 x64; internet for accounts, updates and supported online features.</Program_System_Requirements>
@@ -72,7 +72,7 @@
       <Char_Desc_80>Inspect devices, package sources and available Windows driver update offers.</Char_Desc_80>
       <Char_Desc_250>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Current signed Windows download; free and paid access are documented officially.</Char_Desc_250>
       <Char_Desc_450>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Review limitations and access requirements on the official product page. Windows downloads are publisher-signed and timestamped; signing is not a safety guarantee. Screenshots illustrate the app and may show an earlier release.</Char_Desc_450>
-      <Char_Desc_2000>Tweaky Driver by Aurelio Avila separates detected Windows devices from eligible driver offers. Review installed and available versions and package sources before downloading. Free includes the same full scan as Pro and three driver downloads a month; Pro adds unlimited downloads on two PCs. Driver detection does not establish compatibility, and universal hardware coverage or a performance gain is not promised. Some packages are download-only; installation remains a separate reviewed step. The screenshot is a genuine earlier 0.1.4 initial-state capture, not proof of the current interface or driver coverage. Official Windows downloads are publisher-signed and timestamped. Signing does not guarantee safety.</Char_Desc_2000>
+      <Char_Desc_2000>Tweaky Driver by Aurelio Avila separates detected Windows devices from eligible driver offers. Review installed and available versions and package sources before downloading. Free includes one complete scan every 10 days, with the downloads and installs it offers; Pro adds unlimited scans and downloads on two PCs, with a 3-day free trial. Driver detection does not establish compatibility, and universal hardware coverage or a performance gain is not promised. Some packages are download-only; installation remains a separate reviewed step. The screenshot is a genuine earlier 0.1.4 initial-state capture, not proof of the current interface or driver coverage. Official Windows downloads are publisher-signed and timestamped. Signing does not guarantee safety.</Char_Desc_2000>
     </English>
   </Program_Descriptions>
   <Web_Info>
@@ -84,7 +84,7 @@
       <Application_XML_File_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.28/Tweaky-Driver-0.1.28-x64-setup.exe</Primary_Download_URL>
+      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.29/Tweaky-Driver-0.1.29-x64-setup.exe</Primary_Download_URL>
       <Secondary_Download_URL></Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
