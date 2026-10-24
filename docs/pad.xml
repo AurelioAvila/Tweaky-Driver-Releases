@@ -34,9 +34,9 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>Tweaky Driver</Program_Name>
-    <Program_Version>0.1.30</Program_Version>
+    <Program_Version>0.1.31</Program_Version>
     <Program_Release_Month>10</Program_Release_Month>
-    <Program_Release_Day>22</Program_Release_Day>
+    <Program_Release_Day>24</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
     <Program_Cost_Dollars></Program_Cost_Dollars>
     <Program_Cost_Other_Code></Program_Cost_Other_Code>
@@ -47,8 +47,8 @@
     <Program_OS_Support>WinOther</Program_OS_Support>
     <Program_Language>English</Program_Language>
     <File_Info>
-      <File_Size_Bytes>4829912</File_Size_Bytes>
-      <File_Size_K>4716.71</File_Size_K>
+      <File_Size_Bytes>4829704</File_Size_Bytes>
+      <File_Size_K>4716.51</File_Size_K>
       <File_Size_MB>4.61</File_Size_MB>
     </File_Info>
     <Expire_Info>
@@ -60,7 +60,7 @@
       <Expire_Day></Expire_Day>
       <Expire_Year></Expire_Year>
     </Expire_Info>
-    <Program_Change_Info>Your plan, free trial and free scan are checked once and shared by the title bar, Account and Plans &amp; pricing instead of on every page change; pages open at once and no longer flicker. If the service cannot be reached, the app keeps the last known status with a short note and tries again on its own, waiting longer each time.</Program_Change_Info>
+    <Program_Change_Info>Maintenance update: the trusted certificate authorities checked on every secure connection are refreshed, with a few small internal components; the account service that handles sign-in and plans has a security update for its email component. Nothing changes in how you sign in or what your plan includes.</Program_Change_Info>
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
     <Program_System_Requirements>Windows 10/11 x64; internet for accounts, updates and supported online features.</Program_System_Requirements>
@@ -84,7 +84,7 @@
       <Application_XML_File_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.30/Tweaky-Driver-0.1.30-x64-setup.exe</Primary_Download_URL>
+      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.31/Tweaky-Driver-0.1.31-x64-setup.exe</Primary_Download_URL>
       <Secondary_Download_URL></Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
