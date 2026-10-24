@@ -9,7 +9,8 @@ For Windows 10/11 users reviewing driver changes. Turn a device scan into an inv
 [Download the latest signed installer](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
 
 [![Latest release](https://img.shields.io/github/v/release/AurelioAvila/Tweaky-Driver-Releases?label=release)](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest)
-[![Softpedia user rating: 5 out of 5 from 10 votes](https://img.shields.io/badge/Softpedia-5%2F5%20%7C%2010%20votes-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
+[![Softpedia user rating: 5 out of 5](https://img.shields.io/badge/Softpedia-5%2F5%20user%20rating-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
+[![MajorGeeks user rating: 5 out of 5](https://img.shields.io/badge/MajorGeeks-5%2F5%20user%20rating-C48B28?style=for-the-badge)](https://www.majorgeeks.com/files/details/tweaky_driver.html)
 
 <p align="center"><img src="docs/screenshots/inventory-0.1.21.png" width="100%" alt="Tweaky Driver 0.1.21 interface preview with example devices; native actions are unavailable."></p>
 
@@ -44,9 +45,10 @@ The [WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842), n
 
 ## Reviews
 
-Checked October 14, 2026. Feedback stays at its original source:
+Tweaky Driver is also on Softpedia and MajorGeeks. Checked October 24, 2026; feedback stays at its original source:
 
-- [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml): user rating **5.0/5 from 10 votes**; editorial review **4.0/5**, tested by Softpedia staff; lists 0.1.18.
+- [Softpedia](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml): user rating **5.0/5**; editorial review **4.0/5**, tested by Softpedia staff.
+- [MajorGeeks](https://www.majorgeeks.com/files/details/tweaky_driver.html): user rating **5/5**; listing and reader reviews.
 
 Third-party listings apply their own licence labels and may describe an older release; this repository's [LICENSE](LICENSE) and [release notes](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases) are the authoritative sources.
 
