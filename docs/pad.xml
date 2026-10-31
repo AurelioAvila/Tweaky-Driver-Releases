@@ -34,7 +34,7 @@
   </Company_Info>
   <Program_Info>
     <Program_Name>Tweaky Driver</Program_Name>
-    <Program_Version>0.1.39</Program_Version>
+    <Program_Version>0.1.40</Program_Version>
     <Program_Release_Month>10</Program_Release_Month>
     <Program_Release_Day>24</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
@@ -47,9 +47,9 @@
     <Program_OS_Support>WinOther</Program_OS_Support>
     <Program_Language>English</Program_Language>
     <File_Info>
-      <File_Size_Bytes>4828096</File_Size_Bytes>
-      <File_Size_K>4714.94</File_Size_K>
-      <File_Size_MB>4.60</File_Size_MB>
+      <File_Size_Bytes>4838176</File_Size_Bytes>
+      <File_Size_K>4724.78</File_Size_K>
+      <File_Size_MB>4.61</File_Size_MB>
     </File_Info>
     <Expire_Info>
       <Has_Expire_Info>N</Has_Expire_Info>
@@ -60,7 +60,7 @@
       <Expire_Day></Expire_Day>
       <Expire_Year></Expire_Year>
     </Expire_Info>
-    <Program_Change_Info>Routine maintenance update.</Program_Change_Info>
+    <Program_Change_Info>Billing: switching from annual to monthly no longer drops Pro, and Pro stays active while Stripe finalises a renewal. Devices stopped with error code 10 or 43 now get a repair offer when Windows Update has a matching driver, with the real device status shown after the install. Scan results appear while the Microsoft Update Catalog search is still running. Updated Tauri and the updater plugin to clear dependency security advisories.</Program_Change_Info>
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
     <Program_System_Requirements>Windows 10/11 x64; internet for accounts, updates and supported online features.</Program_System_Requirements>
@@ -84,7 +84,7 @@
       <Application_XML_File_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/pad.xml</Application_XML_File_URL>
     </Application_URLs>
     <Download_URLs>
-      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.39/Tweaky-Driver-0.1.39-x64-setup.exe</Primary_Download_URL>
+      <Primary_Download_URL>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/download/v0.1.40/Tweaky-Driver-0.1.40-x64-setup.exe</Primary_Download_URL>
       <Secondary_Download_URL></Secondary_Download_URL>
       <Additional_Download_URL_1></Additional_Download_URL_1>
       <Additional_Download_URL_2></Additional_Download_URL_2>
