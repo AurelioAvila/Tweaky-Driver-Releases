@@ -1,6 +1,6 @@
 # Tweaky Driver — Windows Driver Inventory and Update Review
 
-For Windows 10/11 users reviewing driver changes. Turn a device scan into an inventory of installed versions and available offers, distinguishing download-ready packages from catalog candidates.
+**Know your drivers before you change them.** Tweaky Driver brings your Windows 10/11 device inventory, installed versions and available update offers into one review workflow. Inspect the package source, choose what to download, and review installation separately.
 
 [Product](https://pctweaker.app/tweaky-driver/) · [Official downloads](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) · [Verify the publisher signature](https://github.com/AurelioAvila/.github/blob/master/CODE_SIGNING.md)
 
@@ -12,21 +12,43 @@ For Windows 10/11 users reviewing driver changes. Turn a device scan into an inv
 [![Softpedia user rating: 5 out of 5](https://img.shields.io/badge/Softpedia-5%2F5%20user%20rating-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
 [![MajorGeeks user rating: 5 out of 5](https://img.shields.io/badge/MajorGeeks-5%2F5%20user%20rating-C48B28?style=for-the-badge)](https://www.majorgeeks.com/files/details/tweaky_driver.html)
 
-<p align="center"><img src="docs/screenshots/inventory-0.1.21.png" width="100%" alt="Tweaky Driver 0.1.21 interface preview with example devices; native actions are unavailable."></p>
+<p align="center"><img src="docs/screenshots/tweaky-driver-0.1.43-scan-results-sample-data.jpg" width="100%" alt="Tweaky Driver 0.1.43 scan-results interface preview, clearly marked sample data, showing three example driver offers to review."></p>
 
-*Tweaky Driver 0.1.21 interface preview with example devices; native actions are unavailable.* [Capture details and hashes](docs/SCREENSHOTS.md).
+*Version 0.1.43 interface preview, captured November 2, 2026. Device names, versions and offers are sample data; no real device scan, download or installation was performed.* [Capture details and hashes](docs/SCREENSHOTS.md).
+
+## See the workflow
+
+### 1. Inspect what is installed
+
+Search the device inventory and read installed driver versions before deciding whether a change is needed.
+
+![Tweaky Driver 0.1.43 device inventory interface preview with explicitly labelled sample devices and installed versions.](docs/screenshots/tweaky-driver-0.1.43-device-inventory-sample-data.jpg)
+
+### 2. Review the source and the next step
+
+Open an offer to inspect its source and available package information. Downloading and installing are separate decisions; some packages are download-only.
+
+![Tweaky Driver 0.1.43 update-review interface preview with a sample Windows Update offer and separate download and installation controls.](docs/screenshots/tweaky-driver-0.1.43-update-review-sample-data.jpg)
+
+All three images show the current release frontend in its built-in browser preview. The preview has no access to your PC and does not establish real-device compatibility or performance. [Full-size images and provenance](docs/SCREENSHOTS.md).
 
 ## What to expect
 
 - A driver inventory that distinguishes detected devices from available offers.
 - Separate download-ready offers and catalog candidates, so a search result is not mistaken for a compatible installation.
-- Clear installed and available versions, package sources and download information, with responsive scan cancellation.
+- Installed versions, available package metadata, sources and download information, with responsive scan cancellation.
 - Release notes describing supported workflows, validation status and known limitations.
 
 Driver discovery depends on compatible packages and supported sources. Universal
 driver coverage is not promised, and some packages are download-only. Review the
 specific offer and release notes before installing or purchasing; detection alone
 does not establish compatibility or guarantee a performance improvement.
+
+## Free and Pro
+
+**Free:** one complete scan of supported sources every 10 days. The drivers that scan finds remain available to download and install until the next free scan unlocks. Device inventory and read-only diagnostics are always available. A free account with a verified email is required.
+
+**Optional Pro:** unlimited scans, downloads and supported installations, plus saved jobs and offline kits. Review the [current plans and renewal terms](https://pctweaker.app/tweaky-driver/) before subscribing. Neither plan promises universal driver coverage.
 
 ## Download and verify
 

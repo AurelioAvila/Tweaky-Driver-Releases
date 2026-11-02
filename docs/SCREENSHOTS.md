@@ -1,5 +1,19 @@
 # Interface preview provenance
 
+## Current gallery: version 0.1.43
+
+Captured on November 2, 2026 at 1440 × 810 pixels from the unmodified 0.1.43 release frontend in its built-in browser preview. The application shows its own sample-data notice; a permanent footer also identifies **TWEAKY DRIVER 0.1.43 — INTERFACE PREVIEW — SAMPLE DATA**.
+
+Device names, installed versions, package offers and source counts are demonstration values. The preview has no access to the computer. No native device scan, compatibility check, driver download or installation was performed for these captures. The sample's partial source coverage does not establish complete hardware coverage or a performance result.
+
+| Image | SHA-256 |
+|---|---|
+| [Scan results](screenshots/tweaky-driver-0.1.43-scan-results-sample-data.jpg) | `f69d4946917c3a46d5d577664fe039f86355cd3f0cf47340294c78677ba7a98b` |
+| [Device inventory](screenshots/tweaky-driver-0.1.43-device-inventory-sample-data.jpg) | `b5d55e6847f345d580f7e300655dbeb62da8fd1eec4569e8b744b43d914cd9f4` |
+| [Update review](screenshots/tweaky-driver-0.1.43-update-review-sample-data.jpg) | `f7a8c1a0c7d4417ec889f212b64ba0105282e2aa04eef83e6e39ede9275392b6` |
+
+## Historical gallery: version 0.1.21
+
 Captured on 18 October 2026 at 1365 × 900 pixels from the 0.1.21 application frontend. These images use explicitly marked example data. Counts, package offers, registry estimates and receipt entries are demonstration values. Native scans, compatibility checks, installations and removals were not performed during capture.
 
 The application's built-in browser preview supplied its sample workstation and Windows Update offers. Source coverage in that example is partial; catalog candidates and download-ready packages must still be reviewed separately.
