@@ -39,9 +39,16 @@ Windows SmartScreen may still display a prompt for a signed application. Code
 signing identifies the publisher and protects integrity; it does not guarantee
 compatibility or the absence of software defects.
 
-## WinGet status
+## Install with WinGet
 
-The [WinGet submission](https://github.com/microsoft/winget-pkgs/pull/442842), now for **0.1.43**, is waiting for a Microsoft moderator as of October 24, 2026; it is a new-package request, which takes longer than a version update. The latest stable application release is **0.1.32**; WinGet will follow once the package is accepted. Use the [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) for current downloads until the package is accepted; passing individual automated checks is not publication.
+Tweaky Driver is available in the community WinGet catalogue as `AurelioAvila.TweakyDriver`. Version **0.1.43** was verified in the live catalogue on November 2, 2026. The [new-package submission](https://github.com/microsoft/winget-pkgs/pull/442842) has been merged and its publication pipeline succeeded.
+
+```powershell
+winget show --id AurelioAvila.TweakyDriver --exact --source winget
+winget install --id AurelioAvila.TweakyDriver --exact --source winget
+```
+
+Review the package details and installer prompts before proceeding. The catalogue and [latest official GitHub release](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) may update at different times; check the version in each source. An older cached index may need a normal `winget source update`.
 
 ## Reviews
 
