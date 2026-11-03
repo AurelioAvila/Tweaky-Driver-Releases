@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>tweaky-driver</id>
+    <version>0.1.44</version>
+    <title>Tweaky Driver</title>
+    <authors>Aurelio Avila</authors>
+    <owners>AurelioAvila</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <licenseUrl>https://github.com/AurelioAvila/Tweaky-Driver-Releases/blob/main/LICENSE</licenseUrl>
+    <projectUrl>https://pctweaker.app/tweaky-driver/</projectUrl>
+    <iconUrl>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/icon-32.png</iconUrl>
+    <summary>Review Windows driver inventory and update offers before making changes</summary>
+    <description>Tweaky Driver brings your Windows 10/11 device inventory, installed driver versions and available update offers into one review workflow.
+
+Inspect the source and package information before choosing what to download. Download-ready offers and catalog candidates are shown separately; detection does not establish compatibility or guarantee a performance improvement. Some packages are download-only, and universal driver coverage is not promised.
+
+Free includes one complete scan of supported sources every 10 days. The drivers found by that scan remain available to download and install until the next free scan unlocks. Device inventory and read-only diagnostics remain available. A free account with a verified email is required. Optional paid Pro plans add unlimited scans and supported installations, saved jobs and offline kits. Check the official website for current prices, features and renewal terms.
+
+This package downloads the official Windows x64 installer from the publisher's version-specific GitHub release. The installer is digitally signed by Aurelio Avila and timestamped. It installs machine-wide and requires administrator access. No driver scan, driver download or driver installation is started by this Chocolatey package.
+
+The application is proprietary. This public repository contains release materials and package scripts, not the application's original source code.</description>
+    <releaseNotes>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/tag/v0.1.44</releaseNotes>
+    <copyright>2026 Aurelio Avila</copyright>
+    <tags>tweaky-driver drivers driver-updates hardware inventory windows admin</tags>
+    <packageSourceUrl>https://github.com/AurelioAvila/Tweaky-Driver-Releases/tree/main/packaging/chocolatey</packageSourceUrl>
+    <docsUrl>https://pctweaker.app/tweaky-driver/</docsUrl>
+    <bugTrackerUrl>https://github.com/AurelioAvila/Tweaky-Driver-Releases/issues</bugTrackerUrl>
+  </metadata>
+  <files>
+    <file src="tools\*.ps1" target="tools" />
+  </files>
+</package>

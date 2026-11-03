@@ -90,7 +90,7 @@ a suspected vulnerability.
 
 ## License and distribution
 
-This repository distributes signed Windows x64 installers and release notes only. The original application source code is private and is not included. This is not an open-source project. See [LICENSE](LICENSE) for the copyright notice; third-party components retain their own licenses.
+This repository distributes signed Windows x64 installers, release materials and package scripts. The original application source code is private and is not included. This is not an open-source project. See [LICENSE](LICENSE) for the copyright notice; third-party components retain their own licenses.
 
 Read the release notes for supported features, validation status and current limitations before installing or purchasing. Driver discovery depends on compatible packages and supported sources; universal driver coverage is not promised. Some packages are download-only.
 
