@@ -13,7 +13,7 @@
     <State_Province></State_Province>
     <Zip_Postal_Code></Zip_Postal_Code>
     <Country>Netherlands</Country>
-    <Company_WebSite_URL>https://getcertsprint.com/</Company_WebSite_URL>
+    <Company_WebSite_URL>https://pctweaker.app/</Company_WebSite_URL>
     <Contact_Info>
       <Author_First_Name>Aurelio</Author_First_Name>
       <Author_Last_Name>Avila</Author_Last_Name>
@@ -35,8 +35,8 @@
   <Program_Info>
     <Program_Name>Tweaky Driver</Program_Name>
     <Program_Version>0.1.44</Program_Version>
-    <Program_Release_Month>10</Program_Release_Month>
-    <Program_Release_Day>24</Program_Release_Day>
+    <Program_Release_Month>11</Program_Release_Month>
+    <Program_Release_Day>03</Program_Release_Day>
     <Program_Release_Year>2026</Program_Release_Year>
     <Program_Cost_Dollars></Program_Cost_Dollars>
     <Program_Cost_Other_Code></Program_Cost_Other_Code>
@@ -63,23 +63,23 @@
     <Program_Change_Info>Routine maintenance update.</Program_Change_Info>
     <Program_Category_Class>System Utilities::System Maintenance</Program_Category_Class>
     <Program_Specific_Category></Program_Specific_Category>
-    <Program_System_Requirements>Windows 10/11 x64; internet for accounts, updates and supported online features.</Program_System_Requirements>
+    <Program_System_Requirements>Windows 10/11 x64; internet and a free verified-email account for the scan workflow.</Program_System_Requirements>
   </Program_Info>
   <Program_Descriptions>
     <English>
       <Keywords>Windows drivers,driver inventory,driver update review,package sources,Tweaky Driver,Aurelio Avila</Keywords>
       <Char_Desc_45>Review Windows driver offers before changes.</Char_Desc_45>
       <Char_Desc_80>Inspect devices, package sources and available Windows driver update offers.</Char_Desc_80>
-      <Char_Desc_250>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Current signed Windows download; free and paid access are documented officially.</Char_Desc_250>
-      <Char_Desc_450>Inspect devices, package sources and available Windows driver update offers. By Aurelio Avila. Review limitations and access requirements on the official product page. Windows downloads are publisher-signed and timestamped; signing is not a safety guarantee. Screenshots illustrate the app and may show an earlier release.</Char_Desc_450>
-      <Char_Desc_2000>Tweaky Driver by Aurelio Avila separates detected Windows devices from eligible driver offers. Review installed and available versions and package sources before downloading. Free includes one complete scan every 10 days, with the downloads and installs it offers; Pro adds unlimited scans and downloads on two PCs, with a 3-day free trial. Driver detection does not establish compatibility, and universal hardware coverage or a performance gain is not promised. Some packages are download-only; installation remains a separate reviewed step. The screenshot is a genuine earlier 0.1.4 initial-state capture, not proof of the current interface or driver coverage. Official Windows downloads are publisher-signed and timestamped. Signing does not guarantee safety.</Char_Desc_2000>
+      <Char_Desc_250>Review Windows devices, installed versions and driver offers before changes. Free: one scan every 10 days; a verified-email account is required. Optional Pro adds unlimited scans. Coverage and compatibility depend on the source and hardware.</Char_Desc_250>
+      <Char_Desc_450>Tweaky Driver separates device inventory, download-ready offers and catalog candidates. Free includes one scan every 10 days and access to the drivers it finds until the next unlock; a verified-email account is required. Optional Pro adds unlimited scans and supported installations. No universal coverage or performance gain is promised. The screenshot shows the current 0.1.44 frontend with clearly labelled sample data.</Char_Desc_450>
+      <Char_Desc_2000>Know your drivers before you change them. Tweaky Driver by Aurelio Avila brings Windows 10/11 x64 device inventory, installed versions and available driver offers into one review workflow. Inspect package sources and metadata before downloading. Download-ready offers and catalog candidates are distinct; some packages are download-only, and installation remains a separate reviewed step. Free includes one complete scan of supported sources every 10 days. The drivers found by that scan remain available to download and install until the next free scan unlocks. Device inventory and read-only diagnostics remain available. A free account with a verified email is required. Optional paid Pro adds unlimited scans, downloads and supported installations, saved jobs and offline kits. Check the official product page for current prices, eligibility and renewal terms. Driver detection does not establish compatibility or guarantee a performance improvement. Universal hardware coverage is not promised. The screenshot was captured on November 3, 2026 from the actual 0.1.44 frontend with fictional sample data, visibly labelled in the image. No real device scan, download or installation was performed for it. The version-specific official setup is digitally signed by Aurelio Avila and includes a trusted timestamp. Signing identifies the publisher and protects integrity; it does not guarantee the absence of SmartScreen warnings or software defects. This is proprietary freemium software, not open source.</Char_Desc_2000>
     </English>
   </Program_Descriptions>
   <Web_Info>
     <Application_URLs>
       <Application_Info_URL>https://pctweaker.app/tweaky-driver/</Application_Info_URL>
       <Application_Order_URL></Application_Order_URL>
-      <Application_Screenshot_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/screenshots/initial-state-0.1.4.png</Application_Screenshot_URL>
+      <Application_Screenshot_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/screenshots/tweaky-driver-0.1.44-scan-results-sample-data.jpg</Application_Screenshot_URL>
       <Application_Icon_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/icon-32.png</Application_Icon_URL>
       <Application_XML_File_URL>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/pad.xml</Application_XML_File_URL>
     </Application_URLs>
