@@ -12,9 +12,9 @@
 [![Softpedia user rating: 5 out of 5](https://img.shields.io/badge/Softpedia-5%2F5%20user%20rating-0078D4?style=for-the-badge)](https://www.softpedia.com/get/System/System-Miscellaneous/Tweaky-Driver.shtml)
 [![MajorGeeks user rating: 5 out of 5](https://img.shields.io/badge/MajorGeeks-5%2F5%20user%20rating-C48B28?style=for-the-badge)](https://www.majorgeeks.com/files/details/tweaky_driver.html)
 
-<p align="center"><img src="docs/screenshots/tweaky-driver-0.1.43-scan-results-sample-data.jpg" width="100%" alt="Tweaky Driver 0.1.43 scan-results interface preview, clearly marked sample data, showing three example driver offers to review."></p>
+<p align="center"><img src="docs/screenshots/tweaky-driver-0.1.44-scan-results-sample-data.jpg" width="100%" alt="Tweaky Driver 0.1.44 scan-results interface preview, clearly marked sample data, showing three example driver offers to review."></p>
 
-*Version 0.1.43 interface preview, captured November 2, 2026. Device names, versions and offers are sample data; no real device scan, download or installation was performed.* [Capture details and hashes](docs/SCREENSHOTS.md).
+*Version 0.1.44 interface preview, captured November 3, 2026. Device names, versions and offers are sample data; no real device scan, download or installation was performed.* [Capture details and hashes](docs/SCREENSHOTS.md).
 
 ## See the workflow
 
@@ -22,13 +22,13 @@
 
 Search the device inventory and read installed driver versions before deciding whether a change is needed.
 
-![Tweaky Driver 0.1.43 device inventory interface preview with explicitly labelled sample devices and installed versions.](docs/screenshots/tweaky-driver-0.1.43-device-inventory-sample-data.jpg)
+![Tweaky Driver 0.1.44 device inventory interface preview with explicitly labelled sample devices and installed versions.](docs/screenshots/tweaky-driver-0.1.44-device-inventory-sample-data.jpg)
 
 ### 2. Review the source and the next step
 
 Open an offer to inspect its source and available package information. Downloading and installing are separate decisions; some packages are download-only.
 
-![Tweaky Driver 0.1.43 update-review interface preview with a sample Windows Update offer and separate download and installation controls.](docs/screenshots/tweaky-driver-0.1.43-update-review-sample-data.jpg)
+![Tweaky Driver 0.1.44 update-review interface preview with a sample Windows Update offer and separate download and installation controls.](docs/screenshots/tweaky-driver-0.1.44-update-review-sample-data.jpg)
 
 All three images show the current release frontend in its built-in browser preview. The preview has no access to your PC and does not establish real-device compatibility or performance. [Full-size images and provenance](docs/SCREENSHOTS.md).
 
