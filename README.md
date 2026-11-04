@@ -2,7 +2,7 @@
 
 **Know your drivers before you change them.** Tweaky Driver brings your Windows 10/11 device inventory, installed versions and available update offers into one review workflow. Inspect the package source, choose what to download, and review installation separately.
 
-[Product](https://pctweaker.app/tweaky-driver/) · [Official downloads](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) · [Verify the publisher signature](https://github.com/AurelioAvila/.github/blob/master/CODE_SIGNING.md)
+[Product](https://pctweaker.app/tweaky-driver/) · [Official downloads](https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/latest) · [WinGet](#install-with-winget) · [Verify the publisher signature](https://github.com/AurelioAvila/.github/blob/master/CODE_SIGNING.md)
 
 [Explore the official website](https://pctweaker.app/tweaky-driver/) · [Read the workflow and FAQ](https://pctweaker.app/tweaky-driver/#questions)
 
@@ -30,7 +30,7 @@ Open an offer to inspect its source and available package information. Downloadi
 
 ![Tweaky Driver 0.1.44 update-review interface preview with a sample Windows Update offer and separate download and installation controls.](docs/screenshots/tweaky-driver-0.1.44-update-review-sample-data.jpg)
 
-All three images show the current release frontend in its built-in browser preview. The preview has no access to your PC and does not establish real-device compatibility or performance. [Full-size images and provenance](docs/SCREENSHOTS.md).
+All three images show the 0.1.44 frontend in its built-in browser preview, captured November 3, 2026. The preview has no access to your PC and does not establish real-device compatibility or performance. [Full-size images and provenance](docs/SCREENSHOTS.md).
 
 ## What to expect
 
@@ -63,7 +63,7 @@ compatibility or the absence of software defects.
 
 ## Install with WinGet
 
-Tweaky Driver is available in the community WinGet catalogue as `AurelioAvila.TweakyDriver`. Version **0.1.43** was verified in the live catalogue on November 2, 2026. The [new-package submission](https://github.com/microsoft/winget-pkgs/pull/442842) has been merged and its publication pipeline succeeded.
+Tweaky Driver is available in the community WinGet catalogue as `AurelioAvila.TweakyDriver`. Version **0.1.45** was verified in the live catalogue on November 4, 2026, with the official release installer. [View the version-specific manifest](https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/AurelioAvila/TweakyDriver/0.1.45).
 
 ```powershell
 winget show --id AurelioAvila.TweakyDriver --exact --source winget
