@@ -15,6 +15,18 @@ version together. Keep the application license and Free/Pro description accurate
 and removal require administrator access and affect the machine-wide app under
 Program Files. The application requires a verified account for its scan workflow.
 
+Microsoft Edge WebView2 Runtime must be present before the native installer runs.
+The package declares `webview2-runtime` as a shared prerequisite, so Chocolatey
+resolves it first on machines where the dependency is missing. The Tweaky Driver
+uninstall script does not remove this shared runtime.
+
+The 0.1.44 dependency correction changes package metadata only. The official
+installer URL, SHA-256, install/uninstall scripts and accepted exit code remain
+unchanged. An installer exit code of 2 is still a failure; it is not treated as
+success or used to bypass verification. The original verifier log reports that
+code but does not independently identify which installer guard rejected the
+environment. The corrected package must complete the community verifier again.
+
 The initial 0.1.44 packaging was checked for PowerShell syntax, metadata, archive
 contents and agreement with the signed official artifact. It was not installed or
 uninstalled on the publisher's working PC as part of package preparation; the

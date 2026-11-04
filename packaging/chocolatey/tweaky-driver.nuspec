@@ -19,6 +19,8 @@ Free includes one complete scan of supported sources every 10 days. The drivers 
 
 This package downloads the official Windows x64 installer from the publisher's version-specific GitHub release. The installer is digitally signed by Aurelio Avila and timestamped. It installs machine-wide and requires administrator access. No driver scan, driver download or driver installation is started by this Chocolatey package.
 
+Microsoft Edge WebView2 Runtime is a shared prerequisite. The webview2-runtime dependency supplies it before the Tweaky Driver installer runs.
+
 The application is proprietary. This public repository contains release materials and package scripts, not the application's original source code.</description>
     <releaseNotes>https://github.com/AurelioAvila/Tweaky-Driver-Releases/releases/tag/v0.1.44</releaseNotes>
     <copyright>2026 Aurelio Avila</copyright>
@@ -26,6 +28,9 @@ The application is proprietary. This public repository contains release material
     <packageSourceUrl>https://github.com/AurelioAvila/Tweaky-Driver-Releases/tree/main/packaging/chocolatey</packageSourceUrl>
     <docsUrl>https://pctweaker.app/tweaky-driver/</docsUrl>
     <bugTrackerUrl>https://github.com/AurelioAvila/Tweaky-Driver-Releases/issues</bugTrackerUrl>
+    <dependencies>
+      <dependency id="webview2-runtime" />
+    </dependencies>
   </metadata>
   <files>
     <file src="tools\*.ps1" target="tools" />
