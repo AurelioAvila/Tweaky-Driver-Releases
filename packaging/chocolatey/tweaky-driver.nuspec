@@ -9,7 +9,7 @@
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <licenseUrl>https://github.com/AurelioAvila/Tweaky-Driver-Releases/blob/main/LICENSE</licenseUrl>
     <projectUrl>https://pctweaker.app/tweaky-driver/</projectUrl>
-    <iconUrl>https://raw.githubusercontent.com/AurelioAvila/Tweaky-Driver-Releases/main/docs/icon-32.png</iconUrl>
+    <iconUrl>https://cdn.jsdelivr.net/gh/AurelioAvila/Tweaky-Driver-Releases@5e38b8be2c288189a38e58897e0f007c2e51f11e/docs/icon-32.png</iconUrl>
     <summary>Review Windows driver inventory and update offers before making changes</summary>
     <description>Tweaky Driver brings your Windows 10/11 device inventory, installed driver versions and available update offers into one review workflow.
 
