@@ -63,7 +63,7 @@ compatibility or the absence of software defects.
 
 ## Install with WinGet
 
-Tweaky Driver is available in the community WinGet catalogue as `AurelioAvila.TweakyDriver`. Version **0.1.45** was verified in the live catalogue on November 4, 2026, with the official release installer. [View the version-specific manifest](https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/AurelioAvila/TweakyDriver/0.1.45).
+Tweaky Driver is available in the community WinGet catalogue as `AurelioAvila.TweakyDriver`. Version **0.1.46** was verified in the live catalogue on November 6, 2026, with the official release installer. [View the version-specific manifest](https://github.com/microsoft/winget-pkgs/tree/master/manifests/a/AurelioAvila/TweakyDriver/0.1.46).
 
 ```powershell
 winget show --id AurelioAvila.TweakyDriver --exact --source winget
